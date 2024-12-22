@@ -1,0 +1,8 @@
+content:
+  - name: Article
+    label: Article
+    path: article
+    type: collection
+    fields:
+      - {name: title, label: Title, type: string, required: true}
+      - {name: body, label: Body, type: rich-text}
